@@ -7,17 +7,17 @@ const ChatScreen = () => {
     const [input, setInput] = useState('');
     const [messages, setMessages] = useState([
         {
-            name: "Ellen",
+            name: "Mark",
             image: "...",
             message: "what's up"
         },
         {
-            name: "Ellen",
-            image: "...",
-            message: "How's it going"
+            message: "Yo"
         },
         {
-            message: "Yo"
+            name: "Mark",
+            image: "...",
+            message: "Really interested in your property, would love to take a look!"
         },
     ]);
 
@@ -33,7 +33,7 @@ const ChatScreen = () => {
     return (
         <div className ="chatScreen">
             <h2>Chat screen</h2>
-            <p className = "chatScreen__timestamp">You matched with Ellen on 10/08/20</p>
+            <p className = "chatScreen__timestamp">You matched with {messages[0].name} on 9/04/20</p>
             {messages.map(message => (
                 // logic to render messages differently depending on sender
                 message.name ? (

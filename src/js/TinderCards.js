@@ -11,7 +11,7 @@ function TinderCards() {
             owner: "David",
             price: "$10,000,000",
             coverPhoto : "https://cdn.vanderbilt.edu/vu-news/files/20190417213956/Engineering_Science_Building_ESB-585x390.jpg",
-            photos: ["", "", "", "", ""],
+            name: "Beautiful new Culver City office space",
             photo1: "https://images.craigslist.org/00Z0Z_3qoj0aQX7jU_0CI0pL_600x450.jpg",
             photo2: "https://images.craigslist.org/00A0A_55Chln32Ruu_03f043_600x450.jpg",
             photo3: "https://images.craigslist.org/00u0u_3tKBEzn3QAy_0hg0n0_600x450.jpg",
@@ -23,6 +23,7 @@ function TinderCards() {
             owner: "Mark",
             price: "$14,000,000",
             coverPhoto : "https://www.horiba.com/fileadmin/uploads/Global/Photos/News/2019/20190711_HTS.jpg",
+            name: "Spacious miracle mile office - iconic view",
             photo1: "https://images.craigslist.org/00P0P_2nRARoUHiV7_06Z07g_600x450.jpg",
             photo2: "https://images.craigslist.org/00P0P_6L8LWRhk7SW_09G07g_600x450.jpg",
             photo3: "https://images.craigslist.org/00Q0Q_4bylSioDAwe_0CI0t2_600x450.jpg",
@@ -33,8 +34,9 @@ function TinderCards() {
             listingID: 3,
             owner: "Mark",
             price: "$12,000,000",
-            coverPhoto : "https://www.horiba.com/fileadmin/uploads/Global/Photos/News/2019/20190711_HTS.jpg",
-            photo1: "https://images.craigslist.org/00P0P_2nRARoUHiV7_06Z07g_600x450.jpg",
+            coverPhoto : "https://images.craigslist.org/00P0P_2nRARoUHiV7_06Z07g_600x450.jpg",
+            name: "Modern office space",
+            photo1: "https://images.craigslist.org/00P0P_6L8LWRhk7SW_09G07g_600x450.jpg",
             photo2: "https://images.craigslist.org/00P0P_6L8LWRhk7SW_09G07g_600x450.jpg",
             photo3: "https://images.craigslist.org/00Q0Q_4bylSioDAwe_0CI0t2_600x450.jpg",
             features: "",
@@ -99,6 +101,7 @@ function TinderCards() {
                     className = 'card'
                     >
                         <h3>{listing.price}</h3>
+                        <h2>{listing.name}</h2>
                     </div>
                 </TinderCard>
             )

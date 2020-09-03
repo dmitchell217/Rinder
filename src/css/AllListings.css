@@ -4,18 +4,18 @@
 }
 
 .AllListings__image {
-    width: 400px;
+    width: 300px;
 }
 
 .AllListings__changeCP {
     position: relative;
     top: 0px;
     right: 0px;
-    width: 400px;
+    width: 300px;
 }
 
 .AllListings__imageContainer {
-    max-width: 500px;
+    max-width: 350px;
 }
 
 .AllListing__firstRow {
@@ -58,12 +58,41 @@
 
 .details__bottomRow {
     position: relative;
-    top: 170px;
+    top: 110px;
     justify-content: space-between;
 }
 
 .ListingStatus__tag {
     /* location styling */
     position: relative;
-    left: 200px;
+    left: 130px;
+}
+
+.AllListing__pricing {
+    width: 300px;
+    padding-right: 50px;
+}
+.AllListings__priceB {
+    width: 300px;
+}
+
+.AllListing__pricingTitle {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing__row {
+    font-weight: normal;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.AllListing__estimate {
+    font-weight: bold;
+}
+
+.AllListings__graph {
+    width: 500px;
 }

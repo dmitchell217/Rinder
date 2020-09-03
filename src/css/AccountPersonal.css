@@ -11,3 +11,11 @@
 .second {
     padding: 0 10px;
 }
+
+.Account__imageContainer {
+    padding: 20px;
+}
+
+.Account__image {
+    text-align: center;
+}

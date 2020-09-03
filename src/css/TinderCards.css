@@ -18,6 +18,10 @@
     color: green
 }
 
+.card > h2 {
+    color: white;
+}
+
 .tinderCards__cardContainer {
     display:flex;
     justify-content: center;

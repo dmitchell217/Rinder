@@ -51,6 +51,7 @@ const AccountPersonal = () => {
                     />
                 </div>
                 <div className="Account__PersonalSecondRow">
+                    <div>
                     <TextField
                         className = "first"
                         variant="standard"
@@ -60,6 +61,8 @@ const AccountPersonal = () => {
                         onChange={(e) => setCell(e.target.value)}
                         value={cell}
                     />
+                    </div>
+                    <div>
                     <TextField
                         className = "second"
                         variant="standard"
@@ -70,6 +73,7 @@ const AccountPersonal = () => {
                         onChange={(e) => setEmail(e.target.value)}
                         value={email}
                     />
+                    </div>
                 </div>
                 <div className="Account__PersonalSubmitButton">
                     <Button

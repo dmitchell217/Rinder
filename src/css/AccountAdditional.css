@@ -1,5 +1,6 @@
-.Account__additional {
+.AccountAdditional_body {
     position: relative;
     left: 300px;
     bottom: 200px;
+    max-width: 600px;
 }

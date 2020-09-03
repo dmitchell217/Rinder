@@ -19,44 +19,49 @@ const AccountAdditional = () => {
 
     return (
         <div className='AccountAdditional_body'>
-            <div className = 'Account__additional'>
+            <div className = 'Account__additional1'>
                 <h3>Additional Info</h3>
                 <TextField
                     variant="standard"
                     placeholder="Company Name"
                     margin="normal"
+                    fullWidth = "true"
                     required
                     onChange={(e) => setCompany(e.target.value)}
                     value={company}
                 />
+            </div>
+            <div className = 'Account__additional2'>
                 <TextField
                     variant="standard"
                     placeholder="Real-estate broker, Property Developer, First-time home buyer"
                     margin="normal"
+                    fullWidth = "true"
                     required
                     // type="password"
                     onChange={(e) => setIdentification(e.target.value)}
                     value={identification}
                 />
+            </div>
+            <div className = 'Account__additional3'>
                 <TextField
                     variant="standard"
                     placeholder="Write a few words about yourself. People like to know who they're dealing with."
                     margin="normal"
+                    fullWidth = "true"
                     required
                     // type="password"
                     onChange={(e) => setAbout(e.target.value)}
                     value={about}
                 />
-
-                <div className="Account__AdditionalSubmitButton">
-                <Button
-                    variant="contained"
-                    color="primary"
-                    onClick={handleAdditional}
-                >Save changes</Button>
-                </div>
             </div>
-            
+            <div className="Account__AdditionalSubmitButton">
+            <Button
+                variant="contained"
+                color="primary"
+                onClick={handleAdditional}
+            >Save changes</Button>
+            </div>
         </div>
     )
 }

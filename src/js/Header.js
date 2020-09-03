@@ -6,6 +6,7 @@ import IconButton from '@material-ui/core/IconButton';
 import logo from './logo.svg';
 import {Link, useHistory } from "react-router-dom"
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
+import badLogo from './badLogo.png'
 
 function Header({ backButton}) {
     const history = useHistory();
@@ -30,7 +31,7 @@ function Header({ backButton}) {
                 </IconButton>
             </Link>
             <Link to='/'>
-                <img src={logo} className="header__logo" alt="logo" />
+                <img src={badLogo} className="header__logo" alt="logo" />
             </Link>
             <Link to='/chat'>
                 <IconButton>

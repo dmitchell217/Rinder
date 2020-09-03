@@ -17,6 +17,7 @@ const AccountLogin = () => {
         <div className="AccountLogin__body">
             <div className="Account__login">
                 <h3>Login & Security</h3>
+                <div>
                 <TextField
                     variant="standard"
                     placeholder="New Password"
@@ -26,6 +27,8 @@ const AccountLogin = () => {
                     onChange={(e) => setP1(e.target.value)}
                     value={p1}
                 />
+                </div>
+                <div>
                 <TextField
                     variant="standard"
                     placeholder="Confirm Password"
@@ -35,6 +38,7 @@ const AccountLogin = () => {
                     onChange={(e) => setP2(e.target.value)}
                     value={p2}
                 />
+                </div>
 
                 <div className="Account__PasswordSubmitButton">
                     <Button

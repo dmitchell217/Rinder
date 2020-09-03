@@ -1,12 +1,46 @@
-import React, {useState} from 'react';
+import React from 'react';
 import "../css/AllListings.css"
 import Button from "@material-ui/core/Button";
 import DeleteIcon from '@material-ui/icons/Delete';
 import { Link } from "react-router-dom"
 import { grabListing } from "./grab.js"
 import ListingStatus from './ListingStatus'
+import mockGraph from './mockGraph.png'
 
 const AllListings = () => {
+
+    const example_listing_swipe_stats = [
+        {
+            price: "$10,000,000",
+            likeRatio: "70%",
+            Volume: "128"
+        },
+        {
+            price: "$9,500,000",
+            likeRatio: "75%",
+            Volume: "89"
+        },
+        {
+            price: "$9,000,000",
+            likeRatio: "80%",
+            Volume: "154"
+        },
+        {
+            price: "$8,500,000",
+            likeRatio: "82%",
+            Volume: "47"
+        },
+        {
+            price: "$8,000,000",
+            likeRatio: "75%",
+            Volume: "290"
+        },
+        {
+            price: "$7,500,000",
+            likeRatio: "69%",
+            Volume: "354"
+        },
+    ];
 
     return (
         <div className = "AllListings">
@@ -55,19 +89,33 @@ const AllListings = () => {
             </div>
             <div className = "AllListing__secondRow">
                 <div className = "AllListing__pricing">
-                    This will show some simple graph of how the listing fairs at different prices
+                    <div className = 'AllListing__pricingTitle'>
+                        <div>Price</div>
+                        <div>Like Ratio</div>
+                        <div>Volume</div>
+                    </div>
+                    <div>
+                        {example_listing_swipe_stats.map(stat => (
+                        // logic to render each stat on a line
+                            <div className = "pricing__row">
+                                <div>{stat.price}</div>
+                                <div>{stat.likeRatio}</div>
+                                <div>{stat.Volume}</div>
+                            </div>
+                        ))}
+                    </div>
                     <Button 
-                    className='AllListings__price' 
+                    className='AllListings__priceB' 
                     to="/edit-price" 
                     component={Link}
                     variant="contained"
                     color="default"
-                    >{grabListing().price}
+                    >Change Price: {grabListing().price}
                     </Button>
                 </div>
                 <div className = "AllListing__analysis">
-                    This will show some other data sciency thing about the listing
-                    Maybe a recommendation or two idk yet.
+                    <div className = "AllListing__estimate">Rinder estimates your property value at $8,500,000</div>
+                    <img src= {mockGraph} alt="Property analysis" className="AllListings__graph"/>
                 </div>
             </div>
         </div>
