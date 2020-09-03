@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/rinder/static/css/main.6b27cbad.chunk.css",
+    "main.js": "/rinder/static/js/main.1bfeedce.chunk.js",
+    "main.js.map": "/rinder/static/js/main.1bfeedce.chunk.js.map",
+    "runtime-main.js": "/rinder/static/js/runtime-main.35ac4ebd.js",
+    "runtime-main.js.map": "/rinder/static/js/runtime-main.35ac4ebd.js.map",
+    "static/css/2.ee241de9.chunk.css": "/rinder/static/css/2.ee241de9.chunk.css",
+    "static/js/2.01caf950.chunk.js": "/rinder/static/js/2.01caf950.chunk.js",
+    "static/js/2.01caf950.chunk.js.map": "/rinder/static/js/2.01caf950.chunk.js.map",
+    "index.html": "/rinder/index.html",
+    "precache-manifest.d44186c454305989f7bf9b927d1600de.js": "/rinder/precache-manifest.d44186c454305989f7bf9b927d1600de.js",
+    "service-worker.js": "/rinder/service-worker.js",
+    "static/css/2.ee241de9.chunk.css.map": "/rinder/static/css/2.ee241de9.chunk.css.map",
+    "static/css/main.6b27cbad.chunk.css.map": "/rinder/static/css/main.6b27cbad.chunk.css.map",
+    "static/js/2.01caf950.chunk.js.LICENSE.txt": "/rinder/static/js/2.01caf950.chunk.js.LICENSE.txt",
+    "static/media/badLogo.png": "/rinder/static/media/badLogo.4c79eb4f.png",
+    "static/media/logo.svg": "/rinder/static/media/logo.5d5d9eef.svg",
+    "static/media/mockGraph.png": "/rinder/static/media/mockGraph.265e6071.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.35ac4ebd.js",
+    "static/css/2.ee241de9.chunk.css",
+    "static/js/2.01caf950.chunk.js",
+    "static/css/main.6b27cbad.chunk.css",
+    "static/js/main.1bfeedce.chunk.js"
+  ]
+}
