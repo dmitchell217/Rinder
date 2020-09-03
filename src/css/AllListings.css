@@ -1,0 +1,69 @@
+.AllListings__listingTypes {
+    display: flex;
+    padding: 20px;
+}
+
+.AllListings__image {
+    width: 400px;
+}
+
+.AllListings__changeCP {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 400px;
+}
+
+.AllListings__imageContainer {
+    max-width: 500px;
+}
+
+.AllListing__firstRow {
+    display: flex;
+    padding: 20px;
+    margin: 10px 150px;
+    border: 1px solid lightgray;
+}
+
+.AllListing__secondRow {
+    display: flex;
+    padding: 20px;
+    margin: 10px 150px;
+    border: 1px solid lightgray;
+}
+
+/* .AllListings__details {
+} */
+
+.details__name {
+    font-weight: bold;
+}
+
+.details__lastUpdate {
+    font-weight: lighter;
+}
+
+.details__firstRow {
+    display: flex;
+    align-items: center;
+}
+
+.details__status {
+    background: green;
+    border-radius: 20%;
+    color: white;
+    margin: 10px;
+    width: 60px;
+}
+
+.details__bottomRow {
+    position: relative;
+    top: 170px;
+    justify-content: space-between;
+}
+
+.ListingStatus__tag {
+    /* location styling */
+    position: relative;
+    left: 200px;
+}

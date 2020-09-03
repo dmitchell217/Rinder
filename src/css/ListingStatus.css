@@ -1,0 +1,37 @@
+/* .ListingStatus__tag {
+    background: green;
+    border-radius: 20%;
+    color: white;
+    margin: 10px;
+    width: 60px;
+} */
+
+.active {
+    background: green;
+    border-radius: 20%;
+    color: white;
+    margin: 15px;
+    width: 70px;
+    text-align: center;
+    font-weight: 450;
+}
+
+.inReview {
+    background: purple;
+    border-radius: 20%;
+    color: white;
+    margin: 15px;
+    width: 80px;
+    text-align: center;
+    font-weight: 450;
+}
+
+.unPublished {
+    background: red;
+    border-radius: 20%;
+    color: white;
+    margin: 15px;
+    width: 120px;
+    text-align: center;
+    font-weight: 450;
+}

@@ -1,0 +1,13 @@
+.Account__PersonalInfo {
+    position: relative;
+    left: 280px;
+    bottom: 220px;
+}
+
+.Account__PersonalFirstRow {
+    justify-content: space-between;
+}
+
+.second {
+    padding: 0 10px;
+}

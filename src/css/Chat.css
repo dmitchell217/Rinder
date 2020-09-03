@@ -1,0 +1,30 @@
+.chat {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 70px;
+}
+
+a {
+    /* no underline */
+    text-decoration: none; 
+    color: inherit;
+}
+
+.chat__details {
+    /* give this container the most weight */
+    flex:1;
+}
+
+.chat__details > p {
+    color:grey;
+}
+
+.chat__timestamp {
+    color: lightgrey;
+}
+
+.chat__image {
+    margin-right: 20px;
+}

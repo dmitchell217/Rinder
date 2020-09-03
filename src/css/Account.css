@@ -1,0 +1,35 @@
+.Account__password {
+    padding: 20px;
+}
+
+.Account__AdditionalInfo {
+    padding: 20px;
+}
+
+.profile__image {
+    width: 150px;
+    border-radius: 30%; 
+    border: 1px solid #ddd;
+}
+
+.Account__imageLabel {
+    padding: 10px 0px 0px 0px;
+    font-weight: bold;
+}
+
+.Account__imageContainer {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    
+    right: 400px;
+    /* bottom: 300px; */
+}
+
+.Account__PersonalInfo {
+    padding: 20px;
+}
+
+.Account__Notifications {
+    padding: 20px;
+}
